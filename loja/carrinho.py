@@ -1,3 +1,8 @@
+from .calculos import frete, total_carrinho
+from .produto import Produto
+#from .promocao import Promocao, SemPromocao
+
+
 class Carrinho:
     def __init__(self):
         self._itens = []
